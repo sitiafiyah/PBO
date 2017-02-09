@@ -38,22 +38,30 @@ public class Frame extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel1.setText("SELAMAT DATANG");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(140, 50, 130, 30);
+        jLabel1.setBounds(130, 40, 190, 40);
 
+        jLabel2.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
         jLabel2.setText("ANJUNGAN TUNAI MANDIRI  ");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(130, 80, 170, 30);
+        jLabel2.setBounds(80, 80, 280, 30);
 
+        jLabel3.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
         jLabel3.setText("BNI SYARIAH-BOJONEGORO");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(120, 110, 210, 30);
+        jLabel3.setBounds(80, 110, 270, 30);
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 255));
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setText("OK");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,13 +69,34 @@ public class Frame extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(160, 200, 73, 23);
+        jButton1.setBounds(150, 240, 100, 30);
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel4.setText("Masukan 4 Digit PIN Anda");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(130, 160, 170, 30);
+        jLabel4.setBounds(130, 200, 150, 30);
+        getContentPane().add(jSeparator1);
+        jSeparator1.setBounds(90, 170, 230, 20);
+        getContentPane().add(jSeparator2);
+        jSeparator2.setBounds(80, 160, 250, 20);
 
-        setBounds(0, 0, 416, 339);
+        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 300);
+
+        setBounds(0, 0, 416, 340);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -142,5 +171,8 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
     // End of variables declaration//GEN-END:variables
 }
