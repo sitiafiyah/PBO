@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
  * @author Siti Afiyah
  */
 public class tarik {
+    
    private int saldo;
     public void ambil (int tab, int t){
     if(t%100!=0){

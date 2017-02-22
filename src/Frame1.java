@@ -168,7 +168,9 @@ public class Frame1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        JOptionPane.showMessageDialog(null,"Cara Penggunaan Aplikasi\n[1] Masukkan PIN dengan benar\n[2] Bertransaksilah dengan benar sesuai pilihan\n[3] Gunakan Uang sesuai kebutuhan lah menabung\n ","INFO",1); 
+        JOptionPane.showMessageDialog(null,"Cara Penggunaan Aplikasi\n[1] "
+                + "Masukkan PIN dengan benar\n[2] Bertransaksilah dengan benar sesuai pilihan\n"
+                + "[3] Gunakan Uang sesuai kebutuhan lah menabung\n ","INFO",1); 
                                
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed

@@ -112,13 +112,16 @@ public class Frame extends javax.swing.JFrame {
               
                 else if (counter<3){   //jika pin salah
                     a--; //menghitung kesalahan login dan memberikan kesempatan login
-                    JOptionPane.showMessageDialog(null,"Pin Salah !\nPastikan PIN yang anda masukkan benar","ERROR",0);
+                    JOptionPane.showMessageDialog(null,"Pin Salah !\nPastikan PIN "
+                            + "yang anda masukkan benar","ERROR",0);
                     JOptionPane.showMessageDialog(null,"\nKesempatan login " +
                         a + " kali lagi" + "\n");
                 }
 
                 else {
-                    JOptionPane.showMessageDialog(null,"Untuk bantuan nasabah,\nsilahkan menghubungi call center 555123 (Gratis)","Kartu ATM anda diblokir!",0);
+                    JOptionPane.showMessageDialog(null,"Untuk bantuan nasabah,\n"
+                            + "silahkan menghubungi call center 555123 (Gratis)",
+                            "Kartu ATM anda diblokir!",0);
                     System.exit(0);
                 }
                 // }
